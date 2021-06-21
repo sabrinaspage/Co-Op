@@ -51,12 +51,3 @@ for file in *.py; do
         mv "$file" "short_$file"
     fi
 done
-
-#for file in *.py; do
-#    [ -f "$file" ] || continue
-#    echo "$file"if [ wc -l "$file" -ge 10]
-#    then
-#        mv "$file" "long_$file"
-#    if [ wc -l "$file" -lt 10]
-#    then
-#        mv "$file" "short_$file"
